@@ -1,0 +1,120 @@
+body{
+ font-family: 'Roboto', sans-serif;
+}
+
+ul.breadcrumb {
+  padding: 8px 16px;
+  list-style: none;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #3232FF;
+}
+
+
+
+ul.breadcrumb li {display: inline;   }
+
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: " ▶";
+}
+
+.buttonStyle{
+  text-align: center;
+ }
+
+.buttonStyle button {
+  margin:5px;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  width: 250px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.active {
+  background-color: #1765FF; 
+  color: white;
+}
+
+.hrtag {
+   border: 2px solid #1765FF;
+    width:40%;
+}
+
+
+
+input[type=text], select, textarea {
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+
+
+.container {
+  border-radius: 5px;
+  padding-left: 200px;
+  }
+
+.col-25 {
+  float: left;
+  width: 15%;
+
+  padding-left: 100px;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.buttonStyle2 {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.buttonStyle2 button {
+  margin:5px;
+  background-color:#6C76FF ;
+  border: none;
+  color: black;
+  padding: 12px 30px;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+

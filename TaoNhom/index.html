@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tạo Nhóm</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+  
+    <div class="header">
+       <div>
+      <ul class="breadcrumb">
+        <li><a href="#">Báo cáo-tiền ích</a></li>
+        <li><a href="#">Phân quyền</a></li>
+        <li><a href="#">Quản lý nhóm</a></li>
+        </ul>
+
+        </div>
+
+    </div>
+
+    <div class="buttonStyle">
+          <button type="button " >Quản lý nhóm </button>
+          <button type="button" class="active">Tạo nhóm</button>    
+      </div>
+
+     <hr class="hrtag">
+    <div class="container">
+      <form action="/action_page.php">
+         <div class="row">
+               <div class="col-25">
+                  <label for="MaNhom">Mã nhóm <span style="color:red;">(*)</span></label>
+              </div>
+            <div class="col-75">
+              <input type="text" id="MaNhom" name="MaNhom" placeholder="Mã nhóm...">
+            </div>
+        </div>
+         <div class="row">
+            <div class="col-25">
+              <label for="TenNhom">Tên Nhóm <span style="color:red;">(*)</span></label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="TenNhom" name="TenNhom" placeholder="Tên Nhóm..">
+            </div>
+        </div>
+
+
+        </form>
+        
+  </div>
+   <div class="buttonStyle2">
+          <button type="button ">Thêm</button>
+          <button type="button">Làm mới</button>    
+    </div>
+
+</body>
