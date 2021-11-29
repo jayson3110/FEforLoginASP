@@ -5,6 +5,7 @@ body{
 ul.breadcrumb {
   padding: 8px 16px;
   list-style: none;
+  font-weight: bold;
 }
 
 .breadcrumb a {
@@ -52,7 +53,7 @@ ul.breadcrumb li+li:before {
 
 
 .pagination {
-   text-align: center;
+  text-align: center;
    margin: 0;
   padding: 0;
  }
@@ -63,7 +64,7 @@ ul.breadcrumb li+li:before {
 
 
 .pagination a {
-  color: #333333;
+  color: #E9E20A;
   padding: 8px 16px;
   text-decoration: none;
 }
@@ -81,6 +82,8 @@ ul.breadcrumb li+li:before {
 
 .buttonStyle{
   text-align: center;
+  display: flex;
+
  }
 
 .buttonStyle button {
@@ -88,7 +91,7 @@ ul.breadcrumb li+li:before {
   border: none;
   color: black;
   padding: 15px 32px;
-  width: 250px;
+  width: 100%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -104,6 +107,9 @@ ul.breadcrumb li+li:before {
 }
 
 .hrtag {
-   border: 2px solid #1765FF;
-    width:40%;
+   height:5px;
+   border-width:0;
+   color:#004FEE;
+   background-color:#004FEE;
+   width:100%;
 }

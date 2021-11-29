@@ -5,6 +5,7 @@ body{
 ul.breadcrumb {
   padding: 8px 16px;
   list-style: none;
+  font-weight: bold;
 }
 
 .breadcrumb a {
@@ -24,6 +25,7 @@ ul.breadcrumb li+li:before {
 
 .buttonStyle{
   text-align: center;
+   display: flex;
  }
 
 .buttonStyle button {
@@ -31,7 +33,7 @@ ul.breadcrumb li+li:before {
   border: none;
   color: black;
   padding: 15px 32px;
-  width: 250px;
+  width: 100%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -48,13 +50,13 @@ ul.breadcrumb li+li:before {
 
 .hrtag {
    border: 2px solid #1765FF;
-    width:40%;
+   width:100%;
 }
 
 
 
-input[type=text], select, textarea {
-  width: 70%;
+input[type=text]{
+  width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -70,19 +72,18 @@ label {
 
 .container {
   border-radius: 5px;
-  padding-left: 200px;
+
   }
 
 .col-25 {
   float: left;
   width: 15%;
-
-  padding-left: 100px;
   margin-top: 6px;
 }
 
 .col-75 {
   float: left;
+  padding-left: 100px;
   width: 75%;
   margin-top: 6px;
 }
@@ -103,7 +104,7 @@ label {
 
 .buttonStyle2 button {
   margin:5px;
-  background-color:#6C76FF ;
+  background-color:#1765FF ;
   border: none;
   color: black;
   padding: 12px 30px;

@@ -36,7 +36,9 @@ body{
   height: 27px;
   position: absolute;
   left: 270px;
-  top: 93px;
+  top: 100px;
+   border-radius: 5px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #999;
 
 }
 
@@ -55,7 +57,7 @@ body{
 
 
 .pagination a {
-  color: #333333;
+  color: #E9E20A;
   padding: 8px 16px;
   text-decoration: none;
 }
@@ -72,9 +74,13 @@ body{
 }
 
 ul.breadcrumb {
+ 
   padding: 8px 16px;
   list-style: none;
+  font-weight: bold;
 }
+
+
 
 .breadcrumb a {
   text-decoration: none;
@@ -83,7 +89,7 @@ ul.breadcrumb {
 
 
 
-ul.breadcrumb li {display: inline;   }
+ul.breadcrumb li {display: inline;  }
 
 ul.breadcrumb li+li:before {
   padding: 8px;
@@ -94,8 +100,9 @@ ul.breadcrumb li+li:before {
 
 
 .buttonStyle{
-  position: absolute;
+   position: absolute;
   right: 120px;
+  
 }
 
 .buttonStyle button {
@@ -110,4 +117,5 @@ ul.breadcrumb li+li:before {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  border-radius: 5px;
 }
